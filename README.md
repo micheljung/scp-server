@@ -17,6 +17,8 @@ It is easiest if you use docker-compose. Then you can specify the authorized SSH
 
 docker-compose.yml file:
 ```
+version: '3.9'
+
 scpserver:
   image: eeacms/scp-server
   ports:
